@@ -1,5 +1,5 @@
 /* test_char_driver.c
-** Team: Veda
+** Team: 'C'
 ** Version: 1.0
 */
 
