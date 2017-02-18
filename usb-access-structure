@@ -1,0 +1,27 @@
+Structure of USB access code 
+
+1.	Register with mid layer(USB Core) : Init function
+
+2.	Init Power Mgmt operations:
+
+ Probe function 
+
+ Probe if device is found
+
+3.	Set DMA address size (DMA mask)
+    On chip DMA address
+
+4.	Enable bus mastering
+
+5.	Enable MSI/MSIx if supported
+
+6.	Register ISR’s
+
+7.	Access device system information
+
+8.	Reserve / claim device address space
+
+
+9.	Map device address space into kernel’s linear address [IOMEM]
+
+10.	 Communicate with the device
